@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head><title>Source code</title></head>
+  <head><title>Source code</title>
+    <style type="text/css">
+      .r{
+      color: #f00;}
+      textarea{
+      resize: none;
+      font-family: consolas, monospace;}
+      h1{
+      color:#080;}
+    </style>
+  </head>
 <body>
   <h1>All real source code</h1>
   <center>please wait</center>
   <a download="download" target="_blank" href="source.zip">your source code</a><br>
+  <form action="#" method="post">
+    <div>
+      <label for="username">Username<span class="r">*</span></label>
+      <input type="text" minlength="10" min="10" maxlength="50" max="50" aria-placeholder="Username" placeholder="Username" id="username" required="required">
+    </div>
+    <div>
+      <label for="email">E-mail</label>
+      <input type="email" aria-placeholder="E-mail" placeholder="E-mail" id="email">
+    </div>
+    <div>
+      <label for="web">Website</label>
+      <input type="url" aria-placeholder="Website" placeholder="Website" id="web">
+    </div>
+    <textarea placeholder="Your message..." aria-placeholder="Your message..." required="required"></textarea>
+    <input type="submit" value="Submit">
+      Error on submit? <a href="mailto:levbulyhou@gmail.com&body=Error on submit message?subject=Error" target="_blank">Click here!</a>
+  </form>
   (C) Leva 2022 <a target="_blank" href="https://lev1234567890.github.io">website</a>
 </body>
 </html>
