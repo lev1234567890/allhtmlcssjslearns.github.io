@@ -30,6 +30,15 @@
       <label for="url">Website</label>
       <input type="url" aria-placeholder="Website" placeholder="Website" id="url">
     </div>
+    <div>
+      <label for="theme">Message theme</label>
+      <input id="theme" placeholder="Message theme" aria-placeholder="Message theme" name="theme" type="text" list="theme" required="required">
+<datalist id="theme">
+  <option value="Message" label="Message">
+  <option value="Error" label="Error">
+  <option value="Other" label="Other">
+</datalist>
+    </div>
     <textarea placeholder="Your message..." aria-placeholder="Your message..." required="required"></textarea>
     <input type="submit" value="Submit"><br>
       Error on submit? <a href="mailto:levbulyhou@gmail.com&body=Error on submit message?subject=Error" target="_blank">Click here!</a><br>
